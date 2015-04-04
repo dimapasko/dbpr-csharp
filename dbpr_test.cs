@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using static Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace dbpr
 {
@@ -9,7 +10,7 @@ namespace dbpr
 		public void TestNyx()
 		{
 			var nyx = "nyx";
-			Assert.AreEqual(nyx, nyx);
+			AreEqual(nyx, nyx);
 		}
 	}
 }

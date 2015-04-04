@@ -6,9 +6,10 @@ namespace dbpr
 	public class dbpr_test
 	{
 		[TestMethod]
-		public void vv()
+		public void TestNyx()
 		{
-			Assert.AreEqual(2, 2);
+			var nyx = "nyx";
+			Assert.AreEqual(nyx, nyx);
 		}
 	}
 }
